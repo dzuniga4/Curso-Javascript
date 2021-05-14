@@ -38,7 +38,7 @@ console.log("Tiene propiedad", obj.hasOwnProperty("soyHumano"));
 
 /* 
   Práctica de objetos
-  1. Vamos a crear objetos que tengan el nombre, origen y autor de 3 pinguinos.
+  1. Vamos a crear objetos que tengan el nombre, origen y autor de 1 pinguinos.
   2. Escriba una funcion que reciba un pinguino, y imprima en pantalla:
   'Hola, soy un pinguino y me llamo <nombre>
   3. A algún pinguino, vamos a crearle una nueva propiedad con nombre
