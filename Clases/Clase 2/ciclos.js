@@ -33,7 +33,15 @@ for (let i = 0; i < arreglo.length; i++) {
 /*
   Practica Ciclos
   1. Escriba una función que ordene 3 números de mayor a menor, NO SE VALE EL .SORT DE ARREGLOS
-*/
+  2. Encuentre el número mayor de un arreglo de números, NO SE VALE EL .SORT
+  3. Escriba un ciclo que itere los números del 0 al 15 y diga si son pares o impares
+  4. Escriba un ciclo que imprima el siguiente patrón:
+    *
+    **
+    ***
+    ****
+    *****
+  */
 
 // 1
 function ordenar(numero1, numero, numero3) {
