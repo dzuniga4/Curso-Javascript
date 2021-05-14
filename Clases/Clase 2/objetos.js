@@ -42,7 +42,12 @@ console.log("Tiene propiedad", obj.hasOwnProperty("soyHumano"));
   2. Escriba una funcion que reciba un pinguino, y imprima en pantalla:
   'Hola, soy un pinguino y me llamo <nombre>
   3. A algún pinguino, vamos a crearle una nueva propiedad con nombre
-  "puedeVolar" y le vamos a poner false
+  "puedeVolar" y le vamos a poner false.
+  4. Llamar el método volar del pinguino.
+  5. Vamos a cambiarle el nombre al pinguino a 'Happy Feet'
+  6. Vamos a cambiarle el "puedeVolar" por "true"
+  7. Vamos a crear un método que se llame "volar", si la propiedad "puedeVolar"
+  es true, imprime "Puedo volar!", si es false imprime "No puedo volar :("
 */
 
 // 1
