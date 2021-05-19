@@ -61,13 +61,13 @@ console.log(arreglo);
  * Strings
  * 1. Escriba una función que imprima en consola "Hola Mundo!".
  * 2. Escriba una función que reciba una variable y diga si la variable es string o no.\
- * 2. Escriba una función que revise si un string está vacío o no. ('')
- * 3. Escroba un string con nombre y apellido juntos y lo separe en un arreglo de strings.
+ * 3. Escriba una función que revise si un string está vacío o no. ('')
+ * 4. Escriba un string con nombre y apellido juntos y lo separe en un arreglo de strings.
  *    con el nombre de primero y el apellido de segundo. str.split(' ') 'Luis Cascante' => ['Luis', 'Cascante']
- * 4. Escriba una función que extraiga solo los primeros n caracteres de un string. str.splice(0, n)
- * 5. Escriba una función que reciba nombre y apellido y devuelva las iniciales.
+ * 5. Escriba una función que extraiga solo los primeros n caracteres de un string. str.splice(0, n)
+ * 6. Escriba una función que reciba nombre y apellido y devuelva las iniciales.
  *    str.split 'Luis Cascante' => 'L.C'
- * 6. Escriba una función que ponga la primera letra en mayúscula. 'luis' => 'Luis'
+ * 7. Escriba una función que ponga la primera letra en mayúscula. 'luis' => 'Luis'
  *
  * Objetos
  *     ------------- TODAS RECIBEN EL OBJETO COMO PARÁMETRO TAMBIÉN ---------------------
@@ -78,7 +78,7 @@ console.log(arreglo);
  * 5. Escriba una función que agregue un atributo a un objeto, recibe el nombre del atributo y el valor.
  * 6. Escriba una función que actualice el valor de un atributo en un objeto,
  *    recibe el nombre del atributo y el valor.
- * 7. Escriban una función que revise si un objeto tiene un atributo, recibe el nombre del atributo.
+ * 7. Escriba una función que revise si un objeto tiene un atributo, recibe el nombre del atributo.
  *
  * Ciclos
  * 1. Escriba una función que reciba un objeto y devuelva un arreglo de llaves/valor. ['llave', 'valor']
