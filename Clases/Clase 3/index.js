@@ -63,10 +63,10 @@ console.log(arreglo);
  * 2. Escriba una función que reciba una variable y diga si la variable es string o no.\
  * 2. Escriba una función que revise si un string está vacío o no. ('')
  * 3. Escroba un string con nombre y apellido juntos y lo separe en un arreglo de strings.
- *    con el nombre de primero y el apellido de segundo. str.split(' ')
+ *    con el nombre de primero y el apellido de segundo. str.split(' ') 'Luis Cascante' => ['Luis', 'Cascante']
  * 4. Escriba una función que extraiga solo los primeros n caracteres de un string. str.splice(0, n)
- * 5. Escriba una función que reciba nombre y apellido y devuelva las iniciales. str.split
- * 6. Escriba una función que ponga la primera letra en mayúscula.
+ * 5. Escriba una función que reciba nombre y apellido y devuelva las iniciales. str.split 'Luis Cascante' => 'L.C'
+ * 6. Escriba una función que ponga la primera letra en mayúscula. 'luis' => 'Luis'
  *
  *
  *
@@ -82,4 +82,18 @@ console.log(arreglo);
  * 7. Escriban una función que revise si un objeto tiene un atributo, recibe el nombre del atributo.
  *
  * Ciclos
+ * 1. Escriba una función que reciba un objeto y devuelva un arreglo de llaves/valor. ['llave', 'valor']
+ * 2. Escriba una función que reciba un objeto y cree una copia cambiando las llaves por lo valores
+ *    y los valores por las llaves.
+ * 3. Escriba una función que reciba un arreglo de objetos y los ordene de mayor a menor por el atributo id.
+ * 4. Escriba una función que reciba un número y le dé la vuelta.
+ * 5. Escriba una función que reciba un string y diga si es palíndromo o no. (se escribe igual al revés)
+ * 6. Escriba una función que reciba un string y encuentre la palabra más grande del string
+ *
+ * General
+ * 1. Escriba una función que reciba un arreglo y una función y ejecute la función en cada elemento del arreglo.
+ * 2. Escriba una función que reciba dos objetos y diga si todos sus atributos y valores son iguales o no.
+ * 3. Escriba una función que reciba n números, sume todos y devuelva el resultado de la suma.
+ * 4. Escriba una función que reciba dos arreglos y elimine del primero los elementos que aparecen en el segundo.
+ * 5. Escriba una función que reciba un arreglo y una función, si la función devuelve true agrega el elemento a un primer arreglo y sino a un segundo arreglo, devuelve los dos.
  */
