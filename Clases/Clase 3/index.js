@@ -60,7 +60,7 @@ console.log(arreglo);
 /**
  * Strings
  * 1. Escriba una función que imprima en consola "Hola Mundo!".
- * 2. Escriba una función que reciba una variable y diga si la variable es string o no.\
+ * 2. Escriba una función que reciba una variable y diga si la variable es string o no.
  * 3. Escriba una función que revise si un string está vacío o no. ('')
  * 4. Escriba un string con nombre y apellido juntos y lo separe en un arreglo de strings.
  *    con el nombre de primero y el apellido de segundo. str.split(' ') 'Luis Cascante' => ['Luis', 'Cascante']
@@ -130,3 +130,10 @@ function iniciales(string) {
 
 const inicial = iniciales("Luis Cascante");
 console.log(inicial);
+
+function mayuscula(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+const mayus = mayuscula("luis");
+console.log(mayus);
