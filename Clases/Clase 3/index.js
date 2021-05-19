@@ -67,4 +67,19 @@ console.log(arreglo);
  * 4. Escriba una función que extraiga solo los primeros n caracteres de un string. str.splice(0, n)
  * 5. Escriba una función que reciba nombre y apellido y devuelva las iniciales. str.split
  * 6. Escriba una función que ponga la primera letra en mayúscula.
+ *
+ *
+ *
+ * Objetos
+ *     ------------- TODAS RECIBEN EL OBJETO COMO PARÁMETRO TAMBIÉN ---------------------
+ * 1. Escriba una función que imprima las LLAVES de los atributos de un objeto.
+ * 2. Escriba una función que imprima los VALORES de los atributos de un objeto.
+ * 3. Escriba una función que elimine un atributo de un objeto, recibe el nombre del atributo como parámetro.
+ * 4. Escriba una función que devuelva la longitud o cantidad de atributos de un objeto.
+ * 5. Escriba una función que agregue un atributo a un objeto, recibe el nombre del atributo y el valor.
+ * 6. Escriba una función que actualice el valor de un atributo en un objeto,
+ *    recibe el nombre del atributo y el valor.
+ * 7. Escriban una función que revise si un objeto tiene un atributo, recibe el nombre del atributo.
+ *
+ * Ciclos
  */
