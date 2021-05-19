@@ -82,6 +82,12 @@ console.log(arreglo);
  *
  * Ciclos
  * 1. Escriba una función que reciba un objeto y devuelva un arreglo de llaves/valor. ['llave', 'valor']
+  * const obj = {
+      nombre: 'Luis',
+      apellido: 'Cascante'
+    }
+
+    [['nombre', 'Luis'], ['apellido', 'Cascante']]
  * 2. Escriba una función que reciba un objeto y cree una copia cambiando las llaves por lo valores
  *    y los valores por las llaves.
  * 3. Escriba una función que reciba un arreglo de objetos y los ordene de mayor a menor por el atributo id.
@@ -96,3 +102,21 @@ console.log(arreglo);
  * 4. Escriba una función que reciba dos arreglos y elimine del primero los elementos que aparecen en el segundo.
  * 5. Escriba una función que reciba un arreglo y una función, si la función devuelve true agrega el elemento a un primer arreglo y sino a un segundo arreglo, devuelve los dos.
  */
+
+// Strings
+function esStringVacio(string) {
+  // if(string === ""){
+  //   return true;
+  // }
+  // else{
+  //   return false
+  // }
+  return string === "" ? true : false;
+}
+
+function separarString(string) {
+  return string.split(" ");
+}
+
+const string = separarString("Luis Cascante");
+console.log(string);
