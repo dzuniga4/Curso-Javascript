@@ -120,3 +120,13 @@ function separarString(string) {
 
 const string = separarString("Luis Cascante");
 console.log(string);
+
+function iniciales(string) {
+  const arreglo = string.split(" ");
+
+  // arreglo[0].charAt(0) + "." + arreglo[1].charAt(0)
+  return `${arreglo[0].charAt(0)}.${arreglo[1].charAt(0)}`;
+}
+
+const inicial = iniciales("Luis Cascante");
+console.log(inicial);
