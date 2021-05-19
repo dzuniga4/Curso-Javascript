@@ -59,12 +59,12 @@ console.log(arreglo);
 
 /**
  * Strings
- * 1. Escriba una función que imprima en consola "Hola Mundo!"
+ * 1. Escriba una función que imprima en consola "Hola Mundo!".
  * 2. Escriba una función que reciba una variable y diga si la variable es string o no.\
- * 2. Escriba una función que revise si un string está vacío o no.
- * 3. Escroba un string con nombre y apellido juntos y lo separe en un arreglo de strings,
- *    con el nombre de primero y el apellido de segundo.
- * 4. Escriba una función que extraiga solo los primeros n caracteres de un string.
- * 5. Escriba una función que reciba nombre y apellido y devuelva las iniciales.
- * 6. Escriba una función que ponga la primera letra en mayúscula
+ * 2. Escriba una función que revise si un string está vacío o no. ('')
+ * 3. Escroba un string con nombre y apellido juntos y lo separe en un arreglo de strings.
+ *    con el nombre de primero y el apellido de segundo. str.split(' ')
+ * 4. Escriba una función que extraiga solo los primeros n caracteres de un string. str.splice(0, n)
+ * 5. Escriba una función que reciba nombre y apellido y devuelva las iniciales. str.split
+ * 6. Escriba una función que ponga la primera letra en mayúscula.
  */
