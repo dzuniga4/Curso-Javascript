@@ -64,7 +64,7 @@ console.log(arreglo);
  * 3. Escriba una función que revise si un string está vacío o no. ('')
  * 4. Escriba un string con nombre y apellido juntos y lo separe en un arreglo de strings.
  *    con el nombre de primero y el apellido de segundo. str.split(' ') 'Luis Cascante' => ['Luis', 'Cascante']
- * 5. Escriba una función que extraiga solo los primeros n caracteres de un string. str.slice(0, n)
+ * 5. Escriba una función que extraiga solo los primeros n caracteres de un string. str.slice(0, n) str.substring(0, n)
  * 6. Escriba una función que reciba nombre y apellido (en un string juntos) y devuelva las iniciales.
  *    str.split 'Luis Cascante' => 'L.C'
  * 7. Escriba una función que ponga la primera letra en mayúscula. 'luis' => 'Luis'
