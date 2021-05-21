@@ -16,6 +16,11 @@ console.log(obj);
 obj.nombre = "Luis";
 console.log(obj);
 
+// Borrar una propiedad o atributo
+delete obj.nombre;
+
+obj.nombre = "Luis";
+
 // Ejemplificar atributos no inicializados por .create()
 obj.soyHumano = obj.soyHumano;
 obj.presentar = obj.presentar;
@@ -33,7 +38,7 @@ console.log("Keys", llaves);
 
 console.log("Entires", Object.entries(obj));
 
-// Object.hasOwnProperty
+// Object.hasOwnProperty reevisa si un objeto tiene un atributo
 console.log("Tiene propiedad", obj.hasOwnProperty("soyHumano"));
 
 /* 
