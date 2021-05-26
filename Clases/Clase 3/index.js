@@ -272,8 +272,20 @@ function borrarAtributo(obj, llave) {
   delete obj[llave];
 }
 
+const obj25 = {
+  nombre: "Betzabet",
+  apellido: "Chaves",
+  edad: 105,
+};
+
+borrarAtributo(obj25, "nombre");
+
+// const llave = "nombre";
+// const valor = obj25[llave];
+// console.log(valor);
+
 // Agregar atributo a objeto  'edad'  24
-function agregarAtributo(obj, llave, valor) {
+function agregarYActualizarAtributo(obj, llave, valor) {
   // obj['edad'] = 24; === obj.edad = 24;
   // obj.llave = 24
   obj[llave] = valor;
@@ -286,8 +298,15 @@ const ejemplo = {
   apellido: "Cascante",
 };
 
-// agregarAtributo(ejemplo, "edad", 24);
-// console.log(ejemplo);
+const llaveEjemplo = "edad";
+
+agregarYActualizarAtributo(ejemplo, llaveEjemplo, 24);
+console.log(ejemplo);
+
+function longitudObjeto(obj) {
+  const arregloLlaves = Object.keys(obj); // ["nombre", "apellido"];
+  return arregloLlaves.length;
+}
 
 function addAtributte(persona, llave, valor) {
   persona = {
@@ -361,3 +380,86 @@ function darVueltaNumero(stringDeNumero) {
 
 const numeroInverso = darVueltaNumero("32165");
 console.log(numeroInverso);
+
+// CICLOS AQUÍ
+
+//Ciclos #1
+function llavesValor(objeto) {
+  const arreglo = [];
+  for (llave in objeto) {
+    const parLlaveValor = [llave, objeto[llave]];
+    arreglo.push(parLlaveValor);
+  }
+
+  return arreglo;
+}
+
+const llavesValores = llavesValor(ejemplo);
+console.log(llavesValores);
+
+// Ciclos #2
+function darVuelta(objeto) {
+  const resultado = {};
+  for (llave in objeto) {
+    const valorOriginal = objeto[llave];
+    resultado[valorOriginal] = llave;
+  }
+
+  return resultado;
+}
+
+const objetoInvertido = darVuelta(ejemplo);
+console.log(objetoInvertido);
+
+// Ciclos #5 haninah  Anita lava la tina
+function esPalindromo(string) {
+  const stringLimpio = string.replaceAll(" ", "").toLowerCase();
+
+  for (let i = 0; i < stringLimpio.length / 2; i++) {
+    if (
+      stringLimpio.charAt(i) !==
+      stringLimpio.charAt(stringLimpio.length - 1 - i)
+    ) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+const posiblePalindromo = "Anita lava la tina";
+const resultadoPalindromo = esPalindromo(posiblePalindromo);
+console.log(resultadoPalindromo);
+
+// Ciclos #6
+function palabraMasGrande(string) {
+  const arregloPalabras = string.split(" "); // ['Anita', 'lava', 'la', 'tina']
+  let resultado = "";
+
+  for (palabra of arregloPalabras) {
+    if (palabra.length > resultado.length) {
+      resultado = palabra;
+    }
+  }
+
+  return resultado;
+}
+
+const resultadoMasGrande = palabraMasGrande(posiblePalindromo);
+console.log(resultadoMasGrande);
+
+// General #1
+
+function general1(arreglo, funcion) {
+  for (elemento of arreglo) {
+    funcion(elemento);
+  }
+}
+
+const arregloEjemplo = [1, 2, 3];
+
+function sumar(elemento) {
+  console.log(elemento + 1);
+}
+
+general1(arregloEjemplo, sumar);
