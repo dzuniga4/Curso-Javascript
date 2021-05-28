@@ -229,7 +229,7 @@ console.log(arreglo);
  * 4. Escriba una función que reciba dos arreglos y elimine del primero los elementos que aparecen en el segundo.
 
   [1,3,4,5,6,7], [3, 7] => [1, 4, 5, 6]
- * 5. Escriba una función que reciba un arreglo y una función, si la función devuelve true agrega el elemento a un primer arreglo y sino a un segundo arreglo, devuelve los dos.
+ * 5. Escriba una función que reciba un arreglo y una función, si la función devuelve true agrega el elemento a un arreglo de los que pasaron y sino a un arreglo de los que NO pasaron, imprime los dos.
  */
 
 // Strings
